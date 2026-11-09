@@ -46,3 +46,16 @@ python3 weekly_report_sample.py
 ```
 
 The [AI evaluation examples](ai_evaluation_samples.json) pair fictional inputs with expected outputs for Hebrew inquiry triage and document extraction.
+
+## Project walkthroughs
+
+Each walkthrough includes an example, checks to run, and a short project brief.
+
+| Topic | עברית | English |
+| --- | --- | --- |
+| Bilingual websites | [אתר דו־לשוני](https://yishai.xyz/guides/bilingual-website/) | [Bilingual website](https://yishai.xyz/en/guides/bilingual-website/) |
+| Redesign redirects | [שדרוג אתר והפניות](https://yishai.xyz/guides/website-redesign/) | [Website redesign](https://yishai.xyz/en/guides/website-redesign/) |
+| Weekly reporting | [אוטומציה לדוח שבועי](https://yishai.xyz/guides/weekly-report-automation/) | [Weekly report automation](https://yishai.xyz/en/guides/weekly-report-automation/) |
+| Approval workflows | [אוטומציה לתהליך אישור](https://yishai.xyz/guides/approval-workflow-automation/) | [Approval workflow automation](https://yishai.xyz/en/guides/approval-workflow-automation/) |
+| AI inquiry triage | [מיון פניות בעברית](https://yishai.xyz/guides/ai-inquiry-triage/) | [AI inquiry triage](https://yishai.xyz/en/guides/ai-inquiry-triage/) |
+| AI document extraction | [חילוץ נתונים ממסמכים](https://yishai.xyz/guides/ai-document-extraction/) | [AI document extraction](https://yishai.xyz/en/guides/ai-document-extraction/) |
