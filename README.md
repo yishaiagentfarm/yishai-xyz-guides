@@ -31,3 +31,18 @@
 The example above takes a website inquiry from a form to a shared follow-up queue. Keep a stable submission ID so retries update the same record, route incomplete requests to review, and test what happens when the destination is unavailable. Measure the time from submission to assignment before and after a small pilot. If AI helps classify free-text inquiries, test the suggestions on representative examples and assign a person to review uncertain cases.
 
 See the [project planning guides](https://yishai.xyz/en/guides/) for website briefs, automation scope, custom software decisions, and AI workflow tests. This is an illustrative workflow published by yishai.xyz.
+
+## דוגמאות להרצה ולבדיקה
+
+- [דוח שבועי משני קובצי CSV](weekly_report_sample.py) מדגים שלוש פניות תקינות, כפילות אחת ושתי פניות לבדיקה. אפשר להריץ את הקובץ ב־Python 3.
+- [דוגמאות לבדיקת תהליך AI](ai_evaluation_samples.json) כוללות קלט מלאכותי ותוצאה צפויה למיון פניות בעברית ולחילוץ נתונים ממסמך.
+
+## Runnable examples
+
+Run the [weekly CSV report sample](weekly_report_sample.py) with Python 3 to see how the rules handle duplicates, missing data, and conflicting records.
+
+```sh
+python3 weekly_report_sample.py
+```
+
+The [AI evaluation examples](ai_evaluation_samples.json) pair fictional inputs with expected outputs for Hebrew inquiry triage and document extraction.

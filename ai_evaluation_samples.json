@@ -1,0 +1,42 @@
+{
+  "description": "Fictional input and expected outputs for review before an AI workflow pilot.",
+  "inquiry_triage": [
+    {
+      "id": "form-on-mobile",
+      "input": "טופס יצירת הקשר באתר מציג שגיאה בנייד",
+      "expected": {"queue": "websites", "review_status": "pending_approval"}
+    },
+    {
+      "id": "form-to-spreadsheet",
+      "input": "הפניות מהטופס צריכות לעבור לגיליון באופן אוטומטי",
+      "expected": {"queue": "integrations", "review_status": "pending_approval"}
+    },
+    {
+      "id": "unclear-topic",
+      "input": "צריך עזרה עם זה דחוף",
+      "expected": {"queue": "review", "review_status": "missing_topic"}
+    }
+  ],
+  "document_extraction": [
+    {
+      "id": "complete-order",
+      "input_pages": [{"page": 1, "text": "הזמנה PO-104. תאריך 2026-11-02. כמות 12."}],
+      "expected": {
+        "order_number": {"value": "PO-104", "source_page": 1},
+        "order_date": {"value": "2026-11-02", "source_page": 1},
+        "quantity": {"value": 12, "source_page": 1},
+        "review_status": "pending_approval"
+      }
+    },
+    {
+      "id": "missing-quantity",
+      "input_pages": [{"page": 1, "text": "הזמנה PO-105. תאריך 2026-11-03."}],
+      "expected": {
+        "order_number": {"value": "PO-105", "source_page": 1},
+        "order_date": {"value": "2026-11-03", "source_page": 1},
+        "quantity": {"value": null, "source_page": null},
+        "review_status": "missing_quantity"
+      }
+    }
+  ]
+}
