@@ -1,0 +1,3 @@
+﻿Step,Input,Destination,Runs per month,Minutes per run,Exception,Owner
+Example: transfer inquiry,Form submission,Inquiry tracker,120,6,Missing category,Intake reviewer
+,,,,,,

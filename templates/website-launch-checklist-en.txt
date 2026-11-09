@@ -1,0 +1,12 @@
+Website launch checklist
+https://yishai.xyz/en/resources/website-launch-checklist/
+
+[ ] Open the homepage and one service page on a phone
+[ ] Follow the menu to a page and then to Contact
+[ ] Submit an inquiry and receive it at the test destination
+[ ] Complete the journey using a keyboard
+[ ] Open old URLs and verify their destinations
+[ ] Switch to the equivalent page in every offered language
+[ ] Verify the site address and sitemap after launch
+
+Record the page URL, device, expected result, and observed result for each check. When one fails, name the person fixing it and decide what to test again.

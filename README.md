@@ -4,6 +4,19 @@
 
 **yishai.xyz** עוסק בבנייה ושיפור אתרים, בפיתוח תוכנה וכלים בהתאמה אישית ובחיבור מערכות. שירותי האוטומציה כוללים העברת מידע בין כלים, עדכון רשומות והפקת דוחות. אפשר לשלב בינה מלאכותית במשימות כמו מיון פניות וחילוץ מידע ממסמכים, עם בדיקה אנושית לפי הצורך.
 
+## כלים להערכה ולבדיקה · Planning and testing tools
+
+| Resource | עברית | English |
+| --- | --- | --- |
+| Launch checklist | [בדיקות לפני השקת אתר](https://yishai.xyz/resources/website-launch-checklist/) | [Website launch checklist](https://yishai.xyz/en/resources/website-launch-checklist/) |
+| Time savings | [מחשבון חיסכון באוטומציה](https://yishai.xyz/resources/automation-savings-calculator/) | [Automation calculator](https://yishai.xyz/en/resources/automation-savings-calculator/) |
+| Pilot readiness | [בדיקת מוכנות לפיילוט AI](https://yishai.xyz/resources/ai-pilot-readiness/) | [AI pilot readiness check](https://yishai.xyz/en/resources/ai-pilot-readiness/) |
+| Replay simulator | [הדמיית Webhook](https://yishai.xyz/resources/webhook-replay/) | [Webhook replay simulator](https://yishai.xyz/en/resources/webhook-replay/) |
+
+The [runnable replay example](webhook-replay/) shows the expected record after each scenario. The [synthetic intake dataset](data/inquiry-routing-dataset.json) contains 18 Hebrew, English, and mixed-language inquiries with manually specified routes. The [editable worksheets](templates/) cover website quotes, workflow inventories, and pilot reviews.
+
+[כל הכלים והתבניות](https://yishai.xyz/resources/) · [All tools and templates](https://yishai.xyz/en/resources/) · [Download the offline kit](https://github.com/yishaiagentfarm/yishai-xyz-guides/releases/tag/planning-kit-v1)
+
 ## דוגמה לתכנון אוטומציה לקליטת פניות
 
 נניח שפניות מגיעות מטופס באתר ומועתקות ידנית לרשימת מעקב. גרסה ראשונה יכולה להעביר כל פנייה לרשימה, לשייך אחראי ולהציג מה צריך לקרות בשלב הבא.

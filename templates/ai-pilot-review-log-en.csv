@@ -1,0 +1,3 @@
+﻿Case ID,Case type,Expected output,Observed output,Review decision,Review minutes,Correction or next test
+Example-01,Ambiguous inquiry,Route to review,,,,Confirm no automatic action
+,,,,,,
