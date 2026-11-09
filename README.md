@@ -60,6 +60,12 @@ python3 weekly_report_sample.py
 
 The [AI evaluation examples](ai_evaluation_samples.json) pair fictional inputs with expected outputs for Hebrew inquiry triage and document extraction.
 
+## בדיקות לעוזר AI למאגר ידע · Knowledge assistant tests
+
+The [bilingual test fixture](data/knowledge-assistant-test-cases.json) pairs fictional documents with six expected outcomes. It includes a supported answer, a retired document, missing evidence, restricted access, conflicting policies, and an instruction embedded in an untrusted note. Use it as a starting point for acceptance tests; it contains no customer data or measured model results.
+
+[הדוגמאות בעברית](https://yishai.xyz/guides/ai-knowledge-base-assistant/#demo) · [Try the examples in English](https://yishai.xyz/en/guides/ai-knowledge-base-assistant/#demo)
+
 ## Project walkthroughs
 
 Each walkthrough includes an example, checks to run, and a short project brief.
@@ -72,3 +78,6 @@ Each walkthrough includes an example, checks to run, and a short project brief.
 | Approval workflows | [אוטומציה לתהליך אישור](https://yishai.xyz/guides/approval-workflow-automation/) | [Approval workflow automation](https://yishai.xyz/en/guides/approval-workflow-automation/) |
 | AI inquiry triage | [מיון פניות בעברית](https://yishai.xyz/guides/ai-inquiry-triage/) | [AI inquiry triage](https://yishai.xyz/en/guides/ai-inquiry-triage/) |
 | AI document extraction | [חילוץ נתונים ממסמכים](https://yishai.xyz/guides/ai-document-extraction/) | [AI document extraction](https://yishai.xyz/en/guides/ai-document-extraction/) |
+| Choose an AI integration developer | [בחירת ספק להטמעת AI](https://yishai.xyz/guides/choosing-ai-integration-developer/) | [AI integration project brief](https://yishai.xyz/en/guides/choosing-ai-integration-developer/) |
+| AI and CRM | [חיבור AI ל־CRM](https://yishai.xyz/guides/ai-crm-integration/) | [AI and CRM with human approval](https://yishai.xyz/en/guides/ai-crm-integration/) |
+| Automation recovery | [התאוששות מתקלה באוטומציה](https://yishai.xyz/guides/automation-failure-recovery/) | [Recovering a failed automation](https://yishai.xyz/en/guides/automation-failure-recovery/) |
